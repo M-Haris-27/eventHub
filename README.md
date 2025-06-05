@@ -1,8 +1,5 @@
 <p align="center"><h1 align="center">EVENTHUB</h1></p>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="center">
 	<img src="https://img.shields.io/github/license/M-Haris-27/eventHub?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/M-Haris-27/eventHub?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/M-Haris-27/eventHub?style=default&color=0080ff" alt="repo-top-language">
