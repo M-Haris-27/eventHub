@@ -2,8 +2,6 @@
 
 A modern, responsive event discovery platform built with React and TypeScript. EventHub helps users discover and explore local events with an intuitive, clean interface.
 
-![EventHub Homepage](https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=EventHub+Homepage)
-
 ## ✨ Features
 
 - **Responsive Design**: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
@@ -156,6 +154,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by [Your Name]**
+### 📬 Contact
+
+For any queries, feedback, or collaboration opportunities, feel free to reach out:
+
+**Muhammad Haris**  
+- 📧 Email: haris54955@gmail.com  
+- 🔗 GitHub: [M-Haris-27](https://github.com/M-Haris-27)
 
 *EventHub - Connecting communities through amazing events*
