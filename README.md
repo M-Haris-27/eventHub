@@ -1,562 +1,161 @@
-<p align="center"><h1 align="center">EVENTHUB</h1></p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/M-Haris-27/eventHub?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/M-Haris-27/eventHub?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/M-Haris-27/eventHub?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/M-Haris-27/eventHub?style=default&color=0080ff" alt="repo-language-count">
-</p>
-<p align="center"><!-- default option, no dependency badges. -->
-</p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
-<br>
+# EventHub 🎉
 
-##  Table of Contents
+A modern, responsive event discovery platform built with React and TypeScript. EventHub helps users discover and explore local events with an intuitive, clean interface.
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+![EventHub Homepage](https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=EventHub+Homepage)
 
----
+## ✨ Features
 
-##  Overview
+- **Responsive Design**: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
+- **Event Discovery**: Browse through a curated list of featured events
+- **Category Filtering**: Filter events by categories (Technology, Music, Business, Art, Food, etc.)
+- **Search Functionality**: Search for events by name or keywords
+- **Event Details**: Each event displays comprehensive information including date, time, location, and description
+- **Clean UI/UX**: Modern, dark-themed interface with smooth animations and transitions
+- **Statistics Dashboard**: Display platform metrics (500+ Events Listed, 50k+ Happy Attendees, 100+ Cities Covered)
 
-<code>❯ REPLACE-ME</code>
+## 🛠️ Technologies Used
 
----
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom components with shadcn/ui integration
+- **State Management**: React Hooks (useState, useEffect)
+- **Code Quality**: ESLint for linting
+- **Package Manager**: npm
 
-##  Features
+## 📁 Project Structure
 
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Project Structure
-
-```sh
-└── eventHub/
-    ├── components.json
-    ├── eslint.config.js
-    ├── index.html
-    ├── package-lock.json
-    ├── package.json
-    ├── postcss.config.js
-    ├── src
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── components
-    │   ├── contexts
-    │   ├── hooks
-    │   ├── index.css
-    │   ├── lib
-    │   ├── main.jsx
-    │   ├── pages
-    │   └── vite-env.d.ts
-    ├── tailwind.config.ts
-    ├── tsconfig.app.json
-    ├── tsconfig.json
-    ├── tsconfig.node.json
-    └── vite.config.ts
+```
+eventHub/
+├── src/
+│   ├── components/          # Reusable UI components
+│   ├── contexts/           # React Context providers
+│   ├── hooks/              # Custom React hooks
+│   ├── pages/              # Page components
+│   ├── lib/                # Utility functions
+│   ├── App.jsx             # Main application component
+│   ├── main.jsx            # Application entry point
+│   └── index.css           # Global styles
+├── index.html              # HTML template
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── vite.config.ts          # Vite configuration
+└── package.json            # Project dependencies
 ```
 
+## 🚀 Getting Started
 
-###  Project Index
-<details open>
-	<summary><b><code>EVENTHUB/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/postcss.config.js'>postcss.config.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/tsconfig.node.json'>tsconfig.node.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/tsconfig.json'>tsconfig.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/tsconfig.app.json'>tsconfig.app.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/vite.config.ts'>vite.config.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/components.json'>components.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/tailwind.config.ts'>tailwind.config.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/eslint.config.js'>eslint.config.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- src Submodule -->
-		<summary><b>src</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/index.css'>index.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/App.css'>App.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/App.jsx'>App.jsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/main.jsx'>main.jsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/vite-env.d.ts'>vite-env.d.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-			<details>
-				<summary><b>contexts</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/contexts/ThemeContext.tsx'>ThemeContext.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>lib</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/lib/utils.ts'>utils.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>components</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ThemeToggle.tsx'>ThemeToggle.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/FilterDropdown.tsx'>FilterDropdown.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/Statistics.tsx'>Statistics.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/CTASection.tsx'>CTASection.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/Navbar.tsx'>Navbar.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/EventCard.tsx'>EventCard.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/SearchBar.tsx'>SearchBar.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-					<details>
-						<summary><b>ui</b></summary>
-						<blockquote>
-							<table>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/context-menu.tsx'>context-menu.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/toaster.tsx'>toaster.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/accordion.tsx'>accordion.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/alert-dialog.tsx'>alert-dialog.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/radio-group.tsx'>radio-group.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/checkbox.tsx'>checkbox.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/input-otp.tsx'>input-otp.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/sheet.tsx'>sheet.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/progress.tsx'>progress.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/badge.tsx'>badge.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/breadcrumb.tsx'>breadcrumb.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/sidebar.tsx'>sidebar.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/pagination.tsx'>pagination.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/label.tsx'>label.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/scroll-area.tsx'>scroll-area.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/input.tsx'>input.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/textarea.tsx'>textarea.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/toast.tsx'>toast.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/separator.tsx'>separator.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/toggle-group.tsx'>toggle-group.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/command.tsx'>command.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/popover.tsx'>popover.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/slider.tsx'>slider.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/form.tsx'>form.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/select.tsx'>select.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/button.tsx'>button.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/drawer.tsx'>drawer.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/toggle.tsx'>toggle.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/dialog.tsx'>dialog.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/alert.tsx'>alert.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/carousel.tsx'>carousel.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/navigation-menu.tsx'>navigation-menu.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/table.tsx'>table.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/tabs.tsx'>tabs.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/skeleton.tsx'>skeleton.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/use-toast.ts'>use-toast.ts</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/switch.tsx'>switch.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/dropdown-menu.tsx'>dropdown-menu.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/collapsible.tsx'>collapsible.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/menubar.tsx'>menubar.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/resizable.tsx'>resizable.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/chart.tsx'>chart.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/avatar.tsx'>avatar.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/hover-card.tsx'>hover-card.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/aspect-ratio.tsx'>aspect-ratio.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/calendar.tsx'>calendar.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/tooltip.tsx'>tooltip.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/sonner.tsx'>sonner.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							<tr>
-								<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/components/ui/card.tsx'>card.tsx</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
-							</tr>
-							</table>
-						</blockquote>
-					</details>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>hooks</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/hooks/use-toast.ts'>use-toast.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/hooks/use-mobile.tsx'>use-mobile.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>pages</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/Events.tsx'>Events.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/NotFound.tsx'>NotFound.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/Login.tsx'>Login.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/Contact.tsx'>Contact.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/Index.tsx'>Index.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/M-Haris-27/eventHub/blob/master/src/pages/Register.tsx'>Register.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-		</blockquote>
-	</details>
-</details>
+### Prerequisites
 
----
-##  Getting Started
+- Node.js (version 16 or higher)
+- npm or yarn
 
-###  Prerequisites
+### Installation
 
-Before getting started with eventHub, ensure your runtime environment meets the following requirements:
-
-- **Programming Language:** TypeScript
-- **Package Manager:** Npm
-
-
-###  Installation
-
-Install eventHub using one of the following methods:
-
-**Build from source:**
-
-1. Clone the eventHub repository:
-```sh
-❯ git clone https://github.com/M-Haris-27/eventHub
-```
-
-2. Navigate to the project directory:
-```sh
-❯ cd eventHub
-```
-
-3. Install the project dependencies:
-
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm install
-```
-
-
-
-
-###  Usage
-Run eventHub using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm start
-```
-
-
-###  Testing
-Run the test suite using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm test
-```
-
-
-
-##  Contributing
-
-- **💬 [Join the Discussions](https://github.com/M-Haris-27/eventHub/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/M-Haris-27/eventHub/issues)**: Submit bugs found or log feature requests for the `eventHub` project.
-- **💡 [Submit Pull Requests](https://github.com/M-Haris-27/eventHub/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone https://github.com/M-Haris-27/eventHub
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/eventhub.git
+   cd eventhub
    ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
 
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/M-Haris-27/eventHub/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=M-Haris-27/eventHub">
-   </a>
-</p>
-</details>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+## 📱 Pages & Navigation
+
+### Home Page
+- Hero section with compelling call-to-action
+- Platform statistics showcase
+- Featured events section
+- Search and filter functionality
+
+### Events Page
+- Complete event listings with category tags
+- Advanced filtering options
+- Event cards with detailed information
+- Registration buttons (UI only)
+
+### Contact Page
+- Contact form with validation
+- Company contact information
+- Professional contact details
+
+## 🎯 Key Features Implemented
+
+### ✅ Required Features
+- [x] Top navigation bar with logo and page links
+- [x] Hero section with "Discover Events Near You" heading
+- [x] Featured Events section with 3-5 sample events
+- [x] Event cards with name, date, time, location, and description
+- [x] Register buttons (UI implementation)
+- [x] Clean, responsive UI design
+- [x] Mobile and tablet-friendly layout
+
+### 🌟 Bonus Features Added
+- [x] **Advanced Search Bar**: Filter events by name with real-time results
+- [x] **Category Filtering**: Filter events by different categories
+- [x] **Dynamic Event Loading**: Events loaded from JavaScript objects (simulating API calls)
+- [x] **Enhanced UI**: Modern dark theme with gradient backgrounds
+- [x] **Interactive Elements**: Hover effects and smooth transitions
+- [x] **Statistics Dashboard**: Platform metrics display
+- [x] **Professional Contact Form**: Complete contact page with form validation
+- [x] **TypeScript Integration**: Enhanced code quality and developer experience
+
+## 🎨 Design Highlights
+
+- **Color Scheme**: Modern dark theme with purple and blue gradients
+- **Typography**: Clean, readable fonts with proper hierarchy
+- **Layout**: Card-based design with consistent spacing
+- **Animations**: Subtle hover effects and transitions
+- **Accessibility**: Proper contrast ratios and semantic HTML
+
+## 📊 Sample Data
+
+The application includes sample events across various categories:
+- Technology conferences
+- Music festivals
+- Business networking events
+- Art exhibitions
+- Food festivals
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern event platforms
+- Icons and imagery from various open-source resources
+- Built with modern web development best practices
 
 ---
+
+**Made with ❤️ by [Your Name]**
+
+*EventHub - Connecting communities through amazing events*
